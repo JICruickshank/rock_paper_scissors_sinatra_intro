@@ -29,7 +29,7 @@ class Game
 
     outcome = Hash.new
     outcome[a + b] = player_one_win
-    outcome[b + a] = player_two_win
+    outcome[b + a] = player_two_win   
     outcome[b + c] = player_one_win
     outcome[c + b] = player_two_win
     outcome[c + a] = player_one_win
